@@ -157,3 +157,7 @@ with col7:
                 mime='text/csv',
                 key='download_mice'
             )
+st.divider()
+col8,col9,col10=st.columns([1,6,1])
+with col9:
+    st.warning("注：如果数据集中的变量名称是中文会显示乱码，请用excel的数据->来自文本->选择逗号分隔符来导入下载的文件。")
