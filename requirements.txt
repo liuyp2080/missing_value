@@ -1,3 +1,4 @@
 pandas
+pkg_resources
 arfs
 scikit-learn
